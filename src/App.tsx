@@ -5,10 +5,12 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import "./App.css";
 
+import { KitchenDashboard } from "./pages/KitchenDashboard";
+
 function App() {
   return (
     <div>
-      <h1>jugglr</h1>
+      <KitchenDashboard />
     </div>
   );
 }
