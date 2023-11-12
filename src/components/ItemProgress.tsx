@@ -43,7 +43,7 @@ export const ItemProgress = (
           )}% ${props.label}`}</Typography>
           <Typography variant="body2" color="text.disabled">{`${formatTime(
             props.remainingSeconds,
-          )}`}</Typography>
+          )} remaining`}</Typography>
         </div>
         <IconButton aria-label="edit" color="primary">
           <EditIcon />
