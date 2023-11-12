@@ -1,5 +1,6 @@
 import React from "react";
 import { DashBoardCard } from "../components/DashBoardCard";
+import { Typography } from "@mui/material";
 
 export const KitchenDashboard = () => {
   const styles = {
@@ -9,11 +10,18 @@ export const KitchenDashboard = () => {
       gridGap: "3rem",
       justifyContent: "center",
       alignContent: "center",
-      height: "100vh",
+    },
+    title: {
+      textAlign: "center",
+      justifyContent: "center",
+      paddingBottom: "3rem",
     },
   };
   return (
     <>
+      <Typography sx={styles.title} variant="h2">
+        Kitchen Dashboard (mockup)
+      </Typography>
       <div style={styles.container}>
         <DashBoardCard />
         <DashBoardCard />
